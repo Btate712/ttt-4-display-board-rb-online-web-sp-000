@@ -5,7 +5,7 @@ def display_board(board)
   current_space = 0
   for row in 1..3
     for col in 1..3
-      print " #{board[((row - 1) * 3 + col) - 1]} " 
+      print " #{board[((row - 1) * 3 + col) - 1]} "
       if col != 3
         print"|"
       end
